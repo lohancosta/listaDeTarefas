@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  /* gap: 1px; */
+}
+
+.container {
+  background-color: #9cc7c9;
+  padding: 15px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+form {
+  display: felx;
+  /* justify-content: center;
+    align-items: center; */
+  padding: 10px;
+}
+input {
+  padding: 10px 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #dee8e9;
+  cursor: pointer;
+}
+
+#limpar {
+  background-color: rgb(231, 60, 60);
+  margin-top: 10px;
+}
+
+#limpar:hover {
+  background-color: rgb(122, 12, 12);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  /* display: none; */
+}
+
+li:hover {
+  background-color: #f1f1f1;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.line-through span {
+  text-decoration: line-through;
+}
+
+.deleteBotao {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.deleteBotao:hover {
+  background-color: #c82333;
+}
