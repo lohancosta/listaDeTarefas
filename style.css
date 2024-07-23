@@ -6,10 +6,10 @@
 
 body {
   display: flex;
-  flex-flow: column;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
   background-color: #f4f4f4;
-  /* gap: 1px; */
 }
 
 .container {
@@ -20,9 +20,7 @@ body {
 }
 
 form {
-  display: felx;
-  /* justify-content: center;
-    align-items: center; */
+  display: flex;
   padding: 10px;
 }
 input {
@@ -56,7 +54,6 @@ li {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  /* display: none; */
 }
 
 li:hover {

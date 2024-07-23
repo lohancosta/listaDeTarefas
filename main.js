@@ -5,7 +5,7 @@ $(document).ready(function () {
 
     const task = $("#entrada").val();
 
-    $("#limpar").append(
+    $("#lista").append(
       // adicionar tarefa na lista
       "<li><span>" +
         task +
